@@ -203,5 +203,21 @@ body{
     margin-left: 2em;
     text-transform: lowercase;
 }
-
+@media (min-width: 600px) {
+    .weather_container {
+        flex-direction: row;
+        height: 400px;
+    }
+    
+    .weather_leftArea {
+        height: 100%;
+        width: 60%;
+        border-radius: 5px 0 5px 0;
+    }
+    
+    .weather_rightArea {
+        width: 50%;
+        border-radius: 0 5px 5px 0;
+    }
+}
  
